@@ -1,0 +1,78 @@
+.parent-blue-box{
+  display: flex;
+  z-index: 5;
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  left: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $blue;
+  padding: 20px;
+  &--blue-box{
+    &--h2{
+      color: $white;
+      font-family: $primary-font-family;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    &--p{
+      color: $white;
+      font-family: $primary-font-family;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    &--btn{
+      background-color: $white;
+      font-size: 18px;
+      font-weight: 700;
+      color: $blue;
+      padding: 17px 37px;
+      text-decoration: none;
+      box-shadow: inset 2px 1px  $blue;
+    }
+
+  }
+}
+
+
+
+.parent-blue-box-mobile{
+  background-color:$blue ;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 30px;
+}
+.blue-box-mobile--h2{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blue-box-mobile--p{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.blue-box-mobile--btn{
+  background: #FFF;
+  color:  #3E9797;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px;
+}

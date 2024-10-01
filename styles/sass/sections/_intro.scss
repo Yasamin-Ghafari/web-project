@@ -1,0 +1,133 @@
+.intro-section {
+  background-color: $blue;
+  position: relative;
+  padding-bottom: 217px;
+
+
+  &--back-black {
+    background-color: $black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    width: calc(50% - 200px);
+  }
+}
+
+.intro-desktop .intro--img-desktop {
+  border-radius: 50%;
+  margin-top: 111px;
+}
+
+
+.intro-desktop .intro--p-desktop {
+  color: $black;
+  font-family: $primary-font-family;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  padding-right: 500px;
+}
+
+.intro-desktop .intro--name-desktop {
+  color: $black;
+  font-family: $primary-font-family;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.intro-desktop .intro--company-desktop {
+  color: $black;
+  font-family: $primary-font-family;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.intro-desktop .intro--man-img-desktop {
+  position: absolute;
+  top: -225px;
+  right: -27px;
+  z-index: 4;
+}
+
+
+
+
+
+.intro-section-mobile {
+  position: relative;
+}
+
+.intro-section-mobile--blue {
+  background-color: $blue;
+  padding: 20px;
+}
+
+.intro-section-mobile--back-black {
+  background-color: $black;
+  padding: 200px;
+  position: relative;
+  text-align: center;
+}
+
+.intro--man-img-mobile {
+  width: 304.392px;
+  height: 454.029px;
+  position: absolute;
+  top: -57px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.intro--img-mobile {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 ;
+  border-radius: 50%;
+}
+
+//.intro--man-img-mobile {
+//  width: 304.392px;
+//  height: 454.029px;
+//  display: block;
+//  margin: 0 auto;
+//}
+.intro--p-mobile{
+  color:  #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+  padding-right: 58px;
+}
+.intro--name-mobile{
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+}
+.intro--company-mobile{
+  color:  #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+
+
+
+
+

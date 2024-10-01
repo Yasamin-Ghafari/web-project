@@ -1,0 +1,112 @@
+.portfolio-section{
+  background-color: $primary-color;
+  padding-bottom: 200px;
+  z-index: -3;
+  position: relative;
+  overflow: hidden;
+  padding-top: 70px;
+  &--btn{
+    color: $white;
+    text-align: center;
+    font-family: $primary-font-family;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: $blue;
+    padding: 17px 37px;
+    display: inline-block;
+    margin-top: 70px;
+    transform: translate(108px);
+  }
+}
+.gradient-1{
+  z-index: -1;
+  position: absolute;
+  width: 473px;
+  height: 1583px;
+  transform: rotate(26.284deg);
+  left: 210px;
+  right: 0;
+  top: -330px;
+  bottom: 0;
+  opacity: 0.1;
+}
+.gradient-2{
+  z-index: -1;
+  position: absolute;
+  width: 473px;
+  height: 1583px;
+  transform: rotate(26.284deg);
+  left: -390px;
+  right: 0;
+  top: -230px;
+  bottom: 30px;
+  opacity: 0.05;
+}
+.gradient-3{
+  z-index: -1;
+  position: absolute;
+  width: 473px;
+  height: 1583px;
+  transform: rotate(26.284deg);
+  left: -125px;
+  right: 0;
+  top: -230px;
+  bottom: 30px;
+  opacity: 0.15;
+}
+.gradient-4{
+  z-index: 0;
+  position: absolute;
+  width: 473px;
+  height: 1583px;
+  transform: rotate(26.284deg);
+  left: 600px;
+  right: 0;
+  top: -230px;
+  bottom: 30px;
+  opacity: 0.2;
+}
+.gradient-5{
+  z-index: -1;
+  position: absolute;
+  width: 473px;
+  height: 1583px;
+  transform: rotate(26.284deg);
+  left: 865px;
+  right: 0;
+  top: -230px;
+  bottom: 30px;
+  opacity: 0.1;
+}
+
+.portfolio--detail{
+    flex: 1 1 30%;
+    &--h2-my{
+      color:$white;
+      font-family: $primary-font-family;
+      font-size: 24px;
+      font-weight: 500;
+      display: inline-block;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      padding-right: 6px;
+    }
+    &--h2-portfolio{
+      color: $blue;
+      font-family: $primary-font-family;
+      font-size: 24px;
+      font-weight: 500;
+      display: inline-block;
+    }
+    &--p{
+      color: $white;
+      font-family: $primary-font-family;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-right: 50px;
+    }
+  }
+
+

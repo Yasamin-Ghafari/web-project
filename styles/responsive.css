@@ -1,0 +1,266 @@
+@media (min-width: 576px) {
+    .portfolio-section--btn {
+        transform: translate(146px);
+    }
+    .menu-list li a {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+@media (min-width: 768px) {
+    .about-me-detail--h2{
+        font-size: 30px;
+    }
+    .about-me-detail--me-h2{
+        font-size: 30px;
+    }
+    .about-me-detail--Everything-h2{
+        font-size: 25px;
+        display: inline-block;
+
+    }
+    .explain-about{
+        font-size: 14px;
+    }
+    .about-me-detail--culture-h2{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .about-me-detail--explain{
+        font-size: 14px;
+        padding-left: 50px;
+
+    }
+    .about-me-icon{
+        padding-left: 51px;
+        margin-top: 40px;
+    }
+    .portfolio-section--btn {
+        transform: translate(250px);
+    }
+
+}
+@media (min-width: 992px) {
+    .service-box {
+        padding: 40px;
+    }
+
+
+    .about-me-detail--h2 {
+        font-size: 50px;
+    }
+
+    .about-me-detail--me-h2 {
+        font-size: 50px;
+    }
+
+    .about-me-detail--Everything-h2 {
+        font-size: 40px;
+        display: inline-block;
+
+    }
+
+    .explain-about {
+        font-size: 16px;
+    }
+
+    .about-me-detail--culture-h2 {
+        font-size: 40px;
+        padding-left: 50px;
+    }
+
+    .about-me-detail--explain {
+        font-size: 16px;
+        padding-left: 50px;
+
+    }
+
+    .contact-detail--h2-contact {
+        font-size: 50px;
+
+    }
+
+    .contact-detail--h2-me {
+        font-size: 50px;
+
+    }
+
+    .contact-list .call, .contact-list .email, .contact-list .visit {
+        font-size: 18px;
+    }
+
+    .contact-list .icon-contact {
+        font-size: 30px;
+    }
+
+    .form-detail--contact-me-p {
+        padding-right: 250px;
+    }
+
+    .intro--p-desktop {
+        padding-right: 594px !important;
+    }
+
+    .intro--man-img-desktop {
+        top: -140px !important; /* مقدار جدید برای سایزهای بین 992px و 1399px */
+        right: -20px !important;
+    }
+
+    .portfolio-section--btn {
+        transform: translate(375px);
+
+
+    }
+
+    .mobile-heading {
+        font-size: 50px;
+    }
+
+    .mobile-paragraph {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .Rojo-logo {
+
+        font-size: 65px;
+    }
+
+    .about-part {
+        font-size: 72px;
+
+    }
+
+    .intro-info--img-man {
+        top: 254px;
+        bottom: 0;
+        right: 84px;
+        width: 509px;
+    }
+
+    .intro-about-section .back-blue {
+        top: 299px;
+        bottom: 0;
+        right: 1px;
+        width: calc(50% - 127px);
+        height: calc(90% - 200px);
+    }
+
+    .relative--man-left img {
+        width: 500px;
+    }
+    .relative--man-left {
+        position: absolute;
+        right: 73px;
+        z-index: 3;
+        bottom: 0;
+        left: auto;
+    }
+
+    .p--rojo-text{
+        padding-right: 400px;
+    }
+    .p--rojo-text-p{
+        padding-right: 456px;
+    }
+    .rojo-explain{
+        padding-top: 177px;
+    }
+
+    .header .back-blue-menu{
+        width: calc(50% - 200px);
+    }
+
+    .relative--man-left img {
+        width: 450px;
+    }
+    .menu-list li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-me-detail--explain{
+        padding-right: 250px;
+    }
+    .portfolio-section--btn {
+        transform: translate(487px);
+
+
+    }
+    .portfolio--detail--h2-my{
+        font-size: 50px;
+
+    }
+    .portfolio--detail--h2-portfolio{
+        font-size: 50px;
+    }
+    .contact-detail--map{
+        width: 673px;
+        height: 740px;
+        position: absolute;
+        right: -54px;
+        bottom: 197px;
+    }
+
+    .intro--man-img-desktop {
+        top: -185px !important;
+        right: 38px !important;
+    }
+    .intro-info--img-man {
+        top: 165px;
+        bottom: 0;
+        right: 84px;
+        width: 509px;
+    }
+    .intro-about-section .back-blue {
+        top: 291px;
+        bottom: 0;
+        right: 1px;
+        width: calc(50% - 127px);
+        height: calc(90% - 200px);
+    }
+    .p--rojo-text{
+        padding-right: 500px;
+    }
+    .p--rojo-text-p{
+        padding-right: 556px;
+    }
+
+    .relative--man-left img {
+        width: 500px;
+    }
+}
+@media (min-width: 1400px) {
+    .intro-desktop .intro--man-img-desktop {
+        top: -225px !important;
+        right: -27px !important;
+
+    }
+    .intro-about-section{
+        background-color: #0e0e0e;
+        position: relative;
+        padding-top: 105px;
+    }
+    .intro-about-section .back-blue {
+        top: 291px;
+        bottom: 0;
+        width: calc(50% - 200px);
+    }
+
+    .relative--man-left img {
+        width: 581px;
+    }
+    .intro-info--img-man {
+        top: 73px;
+        bottom: 0;
+        right: 84px;
+        width: 509px;
+
+    }
+
+}

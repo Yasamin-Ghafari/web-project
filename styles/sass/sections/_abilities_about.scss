@@ -1,0 +1,211 @@
+.abilities-about{
+  background-color: $primary-color;
+
+  z-index: -3;
+  padding-bottom: 240px;
+  position: relative;
+  &--back{
+    &--gradient-1{
+
+      z-index: -1;
+      position: absolute;
+      width: 404.549px;
+      height: 1583px;
+      transform: rotate(26.284deg);
+      left: 201px;
+      right: 0;
+      top: -330px;
+      bottom: 0;
+      opacity: 0.1;
+    }
+    &--gradient-2{
+      z-index: -1;
+      position: absolute;
+      width: 404.549px;
+      height: 1583px;
+      transform: rotate(26.284deg);
+      left: 530px;
+      right: 0;
+      top: -230px;
+      bottom: 0;
+      opacity: 0.05;
+    }
+    &--gradient-3{
+      z-index: -1;
+      position: absolute;
+      width: 404.549px;
+      height: 1583px;
+      transform: rotate(26.284deg);
+      left: -86px;
+      right: 0;
+      top: -230px;
+      bottom: 0;
+      opacity: 0.15;
+    }
+    &--gradient-4{
+      z-index: -1;
+      position: absolute;
+      width: 403.549px;
+      height: 1583px;
+      transform: rotate(26.284deg);
+      left: 417px;
+      right: 0;
+      top: -230px;
+      bottom: 0;
+      opacity: 0.2;
+    }
+    &--gradient-5{
+      z-index: -1;
+      position: absolute;
+      width: 403.549px;
+      height: 1583px;
+      transform: rotate(26.284deg);
+      left: 270px;
+      right: 0;
+      top: -230px;
+      bottom: 0;
+      opacity: 0.1;
+    }
+  }
+}
+
+
+//.parent-about-box{
+  //display: flex;
+  //justify-content: space-between;
+  //align-items: baseline;
+  //gap: 50px;
+  //margin-left: -220px;
+.service-about-box{
+    flex: 1 1 33.33%;
+    margin-top: 130px;
+    margin-bottom: 160px;
+    background-color: $dark-gray;
+    padding: 30px;
+    &--img{
+      width: 82px;
+    }
+    &--h2{
+      //padding-right:  12px ;
+      //padding-left: 39px;
+      margin-top: 46px;
+      color: $blue;
+      font-family: $primary-font-family;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    &--p{
+      //padding: 7px 82px 23px 39px;
+      color: $white;
+      font-family: $primary-font-family;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &--btn{
+      background-color: $blue;
+      padding: 17px 39px;
+      color: $white;
+      text-align: center;
+      font-family: $primary-font-family;
+      font-size: 18px;
+      font-weight: 700;
+      display: inline-block;
+      margin-top: 10px;
+      //
+      text-decoration: none;
+    }
+  }
+
+
+
+
+
+//.parent-skills{
+//  display: flex;
+//  justify-content: space-evenly;
+//  align-items: baseline;
+.skills-child{
+    flex: 1 1 33.33%;
+    &--h2{
+      color: $yellow;
+      font-family: $primary-font-family;
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 64px;
+    }
+    &--h3{
+      color: $white;
+      font-family: $primary-font-family;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    &--p{
+      color: $yellow;
+      font-family: $primary-font-family;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-left: 43px;
+      margin-bottom: 34px;
+    }
+  }
+
+
+
+
+
+.skill-progress{
+  color: $yellow;
+  font-family: $primary-font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -27px;
+}
+
+.progress-container {
+  position: relative;
+  .progress-percentage {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: $white;
+    font-family: $primary-font-family;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .progress-bar {
+    width: 100%;
+    background-color: $white;
+    height: 25px;
+    margin-bottom: 44px;
+    .progress-1 {
+      width: 89%;
+      background-color: $yellow;
+      height: 100%;
+    }
+    .progress-2 {
+      width: 75%;
+      background-color: $yellow;
+      height: 100%;
+    }
+    .progress-3 {
+      width: 85%;
+      background-color: $yellow;
+      height: 100%;
+    }
+    .progress-4{
+      width: 90%;
+      background-color: $yellow;
+      height: 100%;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,24 @@
+.header-about-section{
+  background-color: $black;
+  padding-bottom: 327px;
+}
+
+.rojo-tel {
+  i{
+    padding-right: 10px;
+    color:$yellow;
+  }
+}
+
+.about-part{
+  color: $white;
+  text-align: center;
+  font-family: $primary-font-family;
+  font-size: 32px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  top: 225px;
+  right: 0;
+  left: 50px;
+}

@@ -1,0 +1,92 @@
+.contact-me{
+  background-color: $primary-color;
+  padding-bottom: 25px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+.contact-detail{
+
+      &--h2-contact{
+        color: $white;
+        font-family: $primary-font-family;
+        font-size: 24px;
+        font-weight: 500;
+        display: inline-block;
+      }
+      &--h2-me{
+        color: #FCCA2E;
+        font-family: $primary-font-family;
+        font-size: 24px;
+        font-weight: 500;
+        display: inline-block;
+
+      }
+      &--p{
+        color: $white;
+        font-family: $primary-font-family;
+        font-size: 16px;
+        font-weight: $font-weight;
+        line-height: 24px;
+        display: inline-block;
+      }
+      &--map{
+        margin-top: 40px;
+        width: 342px;
+        height: 185px;
+        display: inline-block;
+        //position: absolute;
+        //right: -70px;
+        //bottom: 150px;
+      }
+
+    }
+
+
+
+
+
+.contact-list{
+    text-decoration: none;
+    display: flex;
+    flex: 1 0 33.33%;
+    padding-top: 23px;
+    .icon-contact{
+      background-color:$blue;
+      border-radius: 50%;
+      padding: 34px 19px;
+      color: $white;
+      text-align: center;
+      font-family: "Font Awesome 5 Free";
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+    .call,.email,.visit{
+      color:  $blue;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      padding-left: 40px;
+      text-decoration: none;
+      display: inline-block;
+      .tel-num,.email-info,.add{
+        color: $white;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24px;
+        display: block;
+        margin-top: 10px;
+        padding-left: 0;
+      }
+    }
+  }
+
+
+
+
+
+
+

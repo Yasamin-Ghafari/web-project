@@ -1,0 +1,47 @@
+.abilities{
+  background-color: $primary-color;
+  padding-bottom: 100px;
+}
+//.parent-box{
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: baseline;
+//  gap: 50px;
+.service-box{
+    flex: 1 1 25%;
+    margin-top: 85px;
+    //margin-bottom: 105px;
+    background-color: $dark-gray;
+    padding: 20px 8px;
+    &:hover{
+      background-color: $blue;
+      h2{
+        color: $white;
+      }
+    }
+    &--img{
+      width: 82px;
+    }
+    &--h2{
+      color: $blue;
+      font-family: $primary-font-family;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    &--p{
+      color: $white;
+      /* Body Text */
+      font-family: $primary-font-family;
+      font-size: 16px;
+      font-weight: $font-weight;
+      line-height: 24px; /* 150% */
+    }
+
+  }
+
+
+
+
+
+

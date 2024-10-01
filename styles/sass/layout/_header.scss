@@ -1,0 +1,295 @@
+.relative {
+  position: relative;
+}
+.relative--man-left{
+    left: 0;
+    right: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+.relative--man-left img {
+    width: 400px;
+  }
+
+.rojo-back{
+    position: absolute;
+    z-index: -2;
+    font-size: 700px;
+    font-weight: 400;
+    opacity: 0.3;
+    /*color: #636363;*/
+    left: -220px;
+    font-family: Righteous;
+    -webkit-text-stroke: 2px #636363;
+  }
+
+.body-1{
+  background-color: #000000;
+}
+header{
+  //padding-bottom: 150px;
+  position: relative;
+  .back-blue-menu{
+    background-color: $blue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(50% - 100px);
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.rojo-section-parent{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: nowrap;
+
+  .Rojo-logo{
+
+    color: $white;
+    font-family: $second-font-family;
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+
+
+.rojo-tel {
+  a {
+    color: $white;
+    text-align: right;
+    font-family: $primary-font-family;
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+  }
+  i{
+    padding-right: 10px;
+  }
+}
+
+
+
+
+.rojo-explain{
+  padding-top: 40px;
+  display: inline-block;
+  padding-bottom: 0;
+  padding-left: 10px;
+  .icon-list{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+
+    li {
+      font-family: FontAwesome;
+      font-size: 24px;
+      font-weight: 400;
+      text-decoration: none;
+      display: inline-block;
+      padding-right: 27px;
+    }
+
+    .facebook{
+      font-family: $brand-font-family-1;
+      font-weight:$brand-font-weight-1;
+      content:"\f39e" ;
+      color: $yellow;
+    }
+    .twitter{
+      font-family: $brand-font-family-1;
+      font-weight:$brand-font-weight-1;
+      content:"\f099" ;
+      color: $yellow;
+    }
+    .instagram{
+      font-family: $brand-font-family-1;
+      font-weight:$brand-font-weight-1;
+      content:"\f16d" ;
+      color: $yellow;
+    }
+    .youtube {
+      font-family: $brand-font-family-1;
+      font-weight: $brand-font-weight-1;
+      content: "\f167";
+      color: $yellow;
+    }
+
+  }
+}
+
+
+
+.p {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+  padding-bottom: 150px;
+}
+.p--rojo-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 39px;
+  display: inline-block;
+}
+.p--rojo-text-p {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  display: inline-block;
+}
+.p--explain-btn {
+  background-color: #FCCA2E;
+  padding: 20px;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  margin-top: 107px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-mobile{
+  background-color: black;
+  position: relative;
+  z-index: -2;
+  padding-bottom: 800px;
+}
+
+.mobile-background-color{
+  background-color: $blue;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: calc(100% - 336px);
+}
+.man-img{
+  width: 304.392px;
+  height: 454.029px;
+}
+.mobile-image{
+
+    position: absolute;
+    left: 161px;
+    right: 0;
+    top: 109px;
+
+
+}
+.mobile-1 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: nowrap;
+
+  .Rojo-logo-mobile {
+    color: $white;
+    font-family: $second-font-family;
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+.mobile-icon-list{
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+  top: 598px;
+  left: 0;
+  li {
+    font-family: FontAwesome;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 27px;
+  }
+
+
+  .facebook{
+    font-family: $brand-font-family-1;
+    font-weight:$brand-font-weight-1;
+    content:"\f39e" ;
+    color: $yellow;
+  }
+  .twitter{
+    font-family: $brand-font-family-1;
+    font-weight:$brand-font-weight-1;
+    content:"\f099" ;
+    color: $yellow;
+  }
+  .instagram{
+    font-family: $brand-font-family-1;
+    font-weight:$brand-font-weight-1;
+    content:"\f16d" ;
+    color: $yellow;
+  }
+  .youtube {
+    font-family: $brand-font-family-1;
+    font-weight: $brand-font-weight-1;
+    content: "\f167";
+    color: $yellow;
+  }
+
+}
+
+.fa-brands{
+  color: $yellow;
+}
+.mobile-content{
+  position: absolute;
+  top: 668px;
+  left: 27px;
+}
+.mobile-heading{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 175%; /* 42px */
+}
+.mobile-paragraph{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.mobile-button{
+  background-color: $yellow;
+  padding: 20px;
+  text-decoration: none;
+  color: $black;
+  display: inline-block;
+  margin-top: 107px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}

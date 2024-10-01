@@ -1,0 +1,126 @@
+.intro-about-section{
+  background-color: $primary-color;
+  position: relative;
+  //padding-bottom: 185px;
+  //padding-top: 105px;
+  .back-blue{
+    background-color: $blue;
+    position: absolute;
+    top: 326px;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    width: calc(50% - 200px);
+    height: calc(90% - 200px);
+  }
+}
+.intro-info{
+  padding-top: 300px;
+  &--img{
+    border-radius: 50%;
+    //margin-top: 100px;
+  }
+  &--img-man{
+    position: absolute;
+
+    z-index: 4;
+    /*width: 606px;*/
+  }
+  &--p{
+    color: $white;
+    font-family: $primary-font-family;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    padding-right: 600px;
+  }
+  &--name{
+    color:  $yellow;
+    font-family: $primary-font-family;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  &--company{
+    color: $white;
+    font-family: $primary-font-family;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 100px;
+  }
+}
+
+
+
+
+
+
+
+.intro-section-mobile {
+  position: relative;
+}
+
+.intro-section-mobile--blue {
+  background-color: $blue;
+  padding: 20px;
+}
+
+.intro-section-mobile--back-black {
+  background-color: $black;
+  padding: 200px;
+  position: relative;
+  text-align: center;
+}
+
+.intro--man-img-mobile {
+  width: 304.392px;
+  height: 454.029px;
+  position: absolute;
+  top: -57px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.intro--img-mobile {
+  width: 100px; /* اندازه کوچکتر */
+  height: auto;
+  display: block;
+  margin: 0 ;
+  border-radius: 50%;
+}
+
+
+.intro--p-mobile{
+  color:  #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+  padding-right: 58px;
+}
+.intro--name-mobile{
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+}
+.intro--company-mobile{
+  color:  #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+
+
+
+
